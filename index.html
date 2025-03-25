@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/059badf775.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <h1>
+            Hii,I`m <span>Aditi</span><br />
+            Bansal from UPES
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------about--------- -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/image1.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>
+              Passionate Cloud Computing student with a strong foundation in Docker, Kubernetes, and DevOps methodologies. 
+              Experienced in containerization, orchestration, and cloud-native application development, with hands-on projects 
+              deploying ML models, databases, and microservices in Dockerized and Kubernetes environments. Proficient in Python, 
+              Streamlit, Flask, and Evidently AI for building interactive dashboards and monitoring ML models. 
+              Active in technical communities, leading events as Events Head at UPES-CSA and driving initiatives in cloud computing 
+              and DevOps. Always eager to explore emerging technologies and contribute to open-source projects.
+
+
+
+
+
+
+
+
+
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+  
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>MERN Stack Developer</span><br />DesigningUI/UX of Web
+                  Applications
+                </li>
+                <li>
+                  <span>Cloud Engineer</span><br />Architecting scalable
+                  solutions in cloud.
+                </li>
+                <li>
+                  <span>Docker Engineer</span><br />Containerization expert for
+                  scalable applications
+                </li>
+              </ul>
+            </div>
+            
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2022-2026</span><br />B.tech From UPES, Dehradun.</li>
+              
+                <li>
+                  <span>2019 - 2020</span><br />Completed 10th From DPS, Udaipur
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ------------------portfolio Services----------- -->
+
+    <div id="portfolio">
+      <div class="container">
+          <h1 class="subtitle">My Projects</h1>
+          <div class="work-container">
+              <div class="work">
+                  <img src="images/project1.png" alt="">
+                  <div class="layer">
+                      <h3>PostgreSQL in Docker</h3>
+                      <p>This project demonstrates how to deploy a Streamlit application that connects to a PostgreSQL database using Docker. The application fetches and displays passenger data stored in PostgreSQL, ensuring a seamless and containerized workflow.</p>
+                      
+                      <a class="btn" href="https://github.com/aditiBansal-7/Streamlit-PostgreSQL-in-docker.git" target="_blank">📂 View GitHub Repo</a>
+                  </div>
+              </div>
+              <div class="work">
+                  <img src="images/project2.png" alt="">
+                  <div class="layer">
+                      <h3>Streamlit ML Model</h3>
+                      <p>The "MySQL_Docker" offers a guide to deploying MySQL databases using Docker.</p>
+                     
+                      <a class="btn" href="https://github.com/aditiBansal-7/docker-ml-mushroom-classifier.git" target="_blank">📂 View GitHub Repo</a>
+                  </div>
+              </div>
+              <div class="work">
+                <img src="images/Home_Page.png" alt="">
+                <div class="layer">
+                    <h3>Titanic Project</h3>
+                    <p>The "Titanic Project" tells us about the prediction f titanic survivals</p>
+                    <a class="btn" href="https://github.com/aditiBansal-7/Titanic_Survival.git" target="_blank">📂 project view</a>
+                    
+                </div>
+            </div>
+            <div class="work">
+              <img src="images/final_prjoect.png" alt="">
+              <div class="layer">
+                  <h3>Final Project</h3>
+                  <p>The "final_proejct" is compostion of everything.</p>
+              
+                  <a class="btn" href="https://github.com/TanishqGupta1234/Final_Projects.git" target="_blank">📂 View GitHub Repo</a>
+                
+              </div>
+          </div>
+              <div class="work">
+                  <img src="images/images.png" alt="">
+                  <div class="layer">
+                      <h3>Docker_FastAPI</h3>
+                      <p>The "Docker_FastAPI" repository demonstrates the deployment of a full-stack application using Docker.</p>
+                      <a class="btn" href="https://github.com/aditiBansal-7/fastapi-docker.git" target="_blank">📂 View GitHub Repo</a>
+                  </div>
+              </div>
+              <div class="work">
+                  <img src="images/project4.png" alt="">
+                  <div class="layer">
+                      <h3>MySQL Database</h3>
+                      <p>The "MySQL_Docker" repository provides a guide to deploying MySQL databases using Docker.</p>
+                      <a class="btn" href="https://github.com/aditiBansal-7/MySQL-using-Docker.git" target="_blank">📂 View GitHub Repo</a>
+                  </div>
+              </div>
+              <div class="work">
+                  <img src="images/project5.png" alt="">
+                  <div class="layer">
+                      <h3>Docker Evidently</h3>
+                      <p>The "Streamlit_Evidently" repository integrates Streamlit with Evidently AI for ML monitoring.</p>
+                      <a class="btn" href="https://github.com/aditiBansal-7/Evidential_AI.git" target="_blank">📂 View GitHub Repo</a>
+                  </div>
+              </div>
+              <div class="work">
+                  <img src="images/project6.png" alt="">
+                  <div class="layer">
+                      <h3>Minikube and Kubectl</h3>
+                      <p>The "Minikube-and-Kubectl" repository provides a guide for Kubernetes cluster management.</p>
+                      <a class="btn" href="https://github.com/aditiBansal-7/Minikube-and-Kubectl.git" target="_blank">📂 View GitHub Repo</a>
+                  </div>
+              </div>
+              <div class="work">
+                  <img src="images/project7.png" alt="">
+                  <div class="layer">
+                      <h3>Docker Bridge</h3>
+                      <p>The We will examine how containers within the same custom bridge network can communicate, while those on different networks remain isolated</p>
+                      <a class="btn" href="https://github.com/aditiBansal-7/Docker-Bridge.git" target="_blank">📂 View GitHub Repo</a>
+                  </div>
+              </div>
+              <div class="work">
+                  <img src="images/project8.png" alt="">
+                  <div class="layer">
+                      <h3>Docker Container Communication</h3>
+                      <p>explores Docker Networking, focusing on creating and managing Docker networks that allow containers to communicate</p>
+                      <a class="btn" href="https://github.com/aditiBansal-7/docker-container-communication.git" target="_blank">📂 View GitHub Repo</a>
+                  </div>
+              </div>
+              <div class="work">
+                  <img src="images/project9.png" alt="">
+                  <div class="layer">
+                      <h3>Bakery Foundation</h3>
+                      <p>This guide provides step-by-step instructions on setting up and using Packer to create a machine image (AMI) on AWS. </p>
+                      <a class="btn" href="https://github.com/aditiBansal-7/Bakery_Foundation.git" target="_blank">📂 View GitHub Repo</a>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+  </div>
+  
+    
+  
+
+    <!-- ------------------contact------------ -->
+
+
+      <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-details">
+      <p>Feel free to reach out to me via email or connect with me on LinkedIn.</p>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:aditi1109.workspace@gmail.com">aditi1109.workspace@gmail.com</a></li>
+        <li><strong>Phone:</strong> <a href="tel:+917023503337">+91-7023503337</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aditi-bansal-a71127284/" target="_blank">Aditi_Bansal@LinkedIn</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/aditiBansal-7" target="_blank">github.com/aditiBansal-7</a></li>
+        <li><strong>LeetCode:</strong> <a href="https://leetcode.com/u/Aditi_Bansal-1109/" target="_blank">leetcode.com/aditi-bansal</a></li>
+      </ul>
+    </div>
+  </section>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (let tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (let tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
